@@ -99,10 +99,15 @@ header {
 .btn:hover {
   text-shadow: 2px 2px 4px #000000;
   font-weight: 600;
+  transition: color 400ms linear 100ms;
 }
 .text-1 .btn  {
 background-color: #484848;
 color:#fffaf0;
+}
+.text-1 .btn:hover {
+  transition: background-color 200ms ease-in 100ms;
+  background-color: #ffff00;
 }
 h1 {
   font-weight: bold;
@@ -169,19 +174,18 @@ width:35%;
 height:35%;
 padding-left:1rem;
 padding-right:1rem;
-opacity: 0.5;
-}
-.section img:hover {
-  border-radius: 35px;
-  opacity: 1;
+border-radius: 35px;
 }
 .information {
   display:flex;
   flex-direction: row;
+  opacity: 0.7;
 }
 .information:hover {
   background-color: #D0D0D0;
   border-radius: 35px;
+  opacity:1;
+  transition: background-color 400ms linear 100ms;
 }
 .information.orientation {
   padding-bottom:1.5rem;
@@ -308,7 +312,6 @@ opacity: 0.5;
 .section-1 img {
   width:100%;
   height: auto;
-  opacity: 0.5;
 }
 .text-start-learning {
   padding-left: 1rem;
@@ -321,10 +324,12 @@ opacity: 0.5;
 .course {
   background-color:white;
   margin:0 0 2rem 0;
+  opacity:0.7;
 }
 .course:hover {
   border-radius: 25px 25px 0 0;
   border-radius: 25px;
+  opacity:1;
 }
 .section-1 img:hover {
   border-radius: 25px 25px 0 0;
@@ -425,22 +430,24 @@ opacity: 0.5;
 .thesis:hover {
   background-color: #D0D0D0;
   border-radius: 35px;
+  opacity:1;
+  transition: background-color 400ms linear 100ms;
 }
 .section-2 img {
   width:35%;
   height:35%;
   display:flex;
   flex-direction: column;
-  opacity: 0.5;
+  border-radius: 25px;
 }
 .section-2 img:hover {
-  border-radius: 25px;
   opacity: 1;
 }
 .thesis {
   display:flex;
   flex-direction: row;
   padding: 1rem 1rem;
+  opacity: 0.7;
 }
 .thesis p {
   color:#808080;
