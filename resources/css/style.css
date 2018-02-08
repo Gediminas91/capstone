@@ -9,6 +9,10 @@ header {
   justify-content: space-between;
   align-items: center;
   height:4rem;
+  border-bottom: 1px outset lightgreen;
+}
+#display {
+  font-size: 1.5rem;
 }
 .dekstop ul {
   display: flex;
@@ -16,9 +20,15 @@ header {
 }
 .dekstop ul li {
   padding-right: 1rem;
+  color: #f08080;
+}
+.dekstop ul li:hover {
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: 600;
 }
 .font {
   font-weight: 600;
+  color: #f08080;
 }
 .font-2 {
   color:hsl(120,0%,60%);
@@ -27,6 +37,10 @@ header {
   display:flex;
   align-items: center;
   padding-left: 1.5rem;
+}
+.logo img {
+  height: 2.5rem;
+  color: #f08080;
 }
 .mobile {
   display: none;
@@ -82,9 +96,13 @@ header {
   text-decoration: none;
   text-align: center;
 }
+.btn:hover {
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: 600;
+}
 .text-1 .btn  {
 background-color: #484848;
-color:white;
+color:#fffaf0;
 }
 h1 {
   font-weight: bold;
@@ -116,7 +134,7 @@ h2, h3 {
     width:100%;
   }
   .text-1 .btn {
-    background-color:#a9a9a9
+    background-color:#a9a9a9;
   }
   .text-1 {
     padding:2rem 1rem 2rem 1rem;
@@ -151,13 +169,23 @@ width:35%;
 height:35%;
 padding-left:1rem;
 padding-right:1rem;
+opacity: 0.5;
+}
+.section img:hover {
+  border-radius: 35px;
+  opacity: 1;
 }
 .information {
   display:flex;
   flex-direction: row;
 }
+.information:hover {
+  background-color: #D0D0D0;
+  border-radius: 35px;
+}
 .information.orientation {
   padding-bottom:1.5rem;
+  padding-top: 1.5rem;
 }
 .information.campus {
   padding-bottom: 1.5rem;
@@ -165,6 +193,7 @@ padding-right:1rem;
 }
 .information.guest-lecture {
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .text {
   line-height: 1.2;
@@ -182,6 +211,10 @@ padding-right:1rem;
 .text span a {
   color:#1e90ff;
   text-decoration: none;
+}
+.text span a:hover {
+  color: #0000ff;
+  transition: color 400ms ease-out 100ms;
 }
 .practice {
   width:60%;
@@ -275,6 +308,7 @@ padding-right:1rem;
 .section-1 img {
   width:100%;
   height: auto;
+  opacity: 0.5;
 }
 .text-start-learning {
   padding-left: 1rem;
@@ -284,9 +318,17 @@ padding-right:1rem;
   margin-right: 2rem;
   margin-left: 2rem;
 }
-.course{
+.course {
   background-color:white;
   margin:0 0 2rem 0;
+}
+.course:hover {
+  border-radius: 25px 25px 0 0;
+  border-radius: 25px;
+}
+.section-1 img:hover {
+  border-radius: 25px 25px 0 0;
+  opacity: 1;
 }
 .course p {
   padding-bottom: 1.5rem;
@@ -380,11 +422,20 @@ padding-right:1rem;
   width:40%;
   padding-top:2.8125rem;
 }
+.thesis:hover {
+  background-color: #D0D0D0;
+  border-radius: 35px;
+}
 .section-2 img {
   width:35%;
   height:35%;
   display:flex;
   flex-direction: column;
+  opacity: 0.5;
+}
+.section-2 img:hover {
+  border-radius: 25px;
+  opacity: 1;
 }
 .thesis {
   display:flex;
@@ -447,17 +498,23 @@ footer {
   display:flex;
   justify-content: space-between;
   height:5.5rem;
-  border-top:0.125rem solid lightgrey;
+  border-top:1px outset seagreen;
   color:#696969;
 }
 footer p {
   padding: 1rem 1.5rem;
+  color: #f08080;
 }
 .last {
   padding-top: 1rem;
 }
 .last span {
   padding-right: 1rem;
+  color: #f08080;
+}
+.last span:hover {
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: 600;
 }
 @media only screen and ( max-width:400px) {
   .last {
