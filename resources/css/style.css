@@ -9,7 +9,11 @@ header {
   justify-content: space-between;
   align-items: center;
   height:4rem;
-  border-bottom: 1px outset lightgreen;
+  border-bottom: 1px outset white;
+  background-color: hsla(210, 30%, 30%, 0.1);
+  -webkit-box-shadow: 0 8px 6px -6px #0f0;
+     -moz-box-shadow: 0 8px 6px -6px #0f0;
+          box-shadow: 0 8px 6px -6px #0f0;
 }
 #display {
   font-size: 1.5rem;
@@ -20,15 +24,15 @@ header {
 }
 .dekstop ul li {
   padding-right: 1rem;
-  color: #f08080;
+  color: #000080;
 }
 .dekstop ul li:hover {
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #0000ff;
   font-weight: 600;
 }
 .font {
   font-weight: 600;
-  color: #f08080;
+  color: #000080;
 }
 .font-2 {
   color:hsl(120,0%,60%);
@@ -67,10 +71,13 @@ header {
 /* Learn something section */
 
 .banner {
-  background-color: #D0D0D0;
+  background-color: hsla(210, 60%, 10%, 0.1);
   height:37.5rem;
   display: flex;
   padding: 2rem 1.5rem;
+  -webkit-box-shadow: 0 8px 6px -6px #0f0;
+     -moz-box-shadow: 0 8px 6px -6px #0f0;
+          box-shadow: 0 8px 6px -6px #0f0;
 }
 .banner img {
   width: 60%;
@@ -102,12 +109,14 @@ header {
   transition: color 400ms linear 100ms;
 }
 .text-1 .btn  {
-background-color: #484848;
+background-color: #808080;
 color:#fffaf0;
 }
 .text-1 .btn:hover {
-  transition: background-color 200ms ease-in 100ms;
-  background-color: #ffff00;
+  transition: background-color 200ms ease-in 100ms,
+  border-radius 200ms ease-in 100ms;
+  background-color: #2f4f4f;
+  border-radius: 10px;
 }
 h1 {
   font-weight: bold;
@@ -159,9 +168,13 @@ h2, h3 {
 
 .main-1 {
 display:flex;
+background-color: hsla(210, 60%, 10%, 0.2);
+-webkit-box-shadow: 0 8px 6px -6px #0f0;
+   -moz-box-shadow: 0 8px 6px -6px #0f0;
+        box-shadow: 0 8px 6px -6px #0f0;
 }
 .main-1 p {
-  color:#696969;
+  color:#000000;
 }
 .section {
   display:flex;
@@ -179,10 +192,10 @@ border-radius: 35px;
 .information {
   display:flex;
   flex-direction: row;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .information:hover {
-  background-color: #D0D0D0;
+  background-color: #f0ffff;
   border-radius: 35px;
   opacity:1;
   transition: background-color 400ms linear 100ms;
@@ -291,7 +304,10 @@ border-radius: 35px;
 /* Start Learning Section */
 
 .main-2 {
-  background-color: #D0D0D0;
+  background-color: hsla(210, 60%, 10%, 0.1);
+  -webkit-box-shadow: 0 8px 6px -6px #0f0;
+     -moz-box-shadow: 0 8px 6px -6px #0f0;
+          box-shadow: 0 8px 6px -6px #0f0;
 }
 .main-2 h2 {
   padding-top:2.5rem;
@@ -330,10 +346,6 @@ border-radius: 35px;
   border-radius: 25px 25px 0 0;
   border-radius: 25px;
   opacity:1;
-}
-.section-1 img:hover {
-  border-radius: 25px 25px 0 0;
-  opacity: 1;
 }
 .course p {
   padding-bottom: 1.5rem;
@@ -389,6 +401,12 @@ border-radius: 35px;
 
 /* Thesis exhibit section */
 
+.main-3 {
+  background-color: hsla(210, 60%, 10%, 0.2);
+  -webkit-box-shadow: 0 8px 6px -6px #0f0;
+     -moz-box-shadow: 0 8px 6px -6px #0f0;
+          box-shadow: 0 8px 6px -6px #0f0;
+}
 .main-3 h2 {
   text-align: center;
   padding-top:2rem;
@@ -415,7 +433,7 @@ border-radius: 35px;
 }
 .exhibit p {
   line-height: 1.3;
-  color:#696969;
+  color:#000000;
   font-style: italic;
 }
 .exhibit h3 {
@@ -428,7 +446,7 @@ border-radius: 35px;
   padding-top:2.8125rem;
 }
 .thesis:hover {
-  background-color: #D0D0D0;
+  background-color: #f0ffff;
   border-radius: 35px;
   opacity:1;
   transition: background-color 400ms linear 100ms;
@@ -447,10 +465,10 @@ border-radius: 35px;
   display:flex;
   flex-direction: row;
   padding: 1rem 1rem;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .thesis p {
-  color:#808080;
+  color:#000000;
 }
 .text-2 {
   display: flex;
@@ -505,22 +523,23 @@ footer {
   display:flex;
   justify-content: space-between;
   height:5.5rem;
-  border-top:1px outset seagreen;
   color:#696969;
+  border-bottom: 1px outset white;
+  background-color: hsla(210, 30%, 30%, 0.1);
 }
 footer p {
   padding: 1rem 1.5rem;
-  color: #f08080;
+  color: #000080;
 }
 .last {
   padding-top: 1rem;
 }
 .last span {
   padding-right: 1rem;
-  color: #f08080;
+  color: #000080;
 }
 .last span:hover {
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #0000ff;
   font-weight: 600;
 }
 @media only screen and ( max-width:400px) {
